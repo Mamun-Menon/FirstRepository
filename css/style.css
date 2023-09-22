@@ -1,0 +1,152 @@
+*{
+    
+    margin:0px;
+    padding: 0px;
+}
+ body{
+    background-color:#eccc68;
+ }
+ #wrapper
+ {
+    width: 960px;
+    margin: 20px auto; 
+    border: 3px solid #57606f ; 
+    box-shadow: 5px 5px 15px 25px;
+ }
+
+ .headerimage{
+
+   display: flex; 
+   overflow: hidden; 
+   width: 940px; 
+   border-bottom: 3px solid #57606f;  
+   padding: 10px; 
+   background-color: #505093;
+ }
+ #header p{
+    color :#000000; 
+    font-family: georgia;
+    font-weight: bold; 
+    letter-spacing: 10px;
+ }
+ 
+ #header h2{
+    color :#8daed4; 
+    font-family: georgia;
+ } 
+ .naver
+ {
+    border-top: 3px solid #4f5252 ; 
+    display: flex;
+    background-color: #7a818e; 
+    border-bottom: 3px solid #4f456a;
+ } 
+ .naver ul li{ 
+    
+    display: inline-block; 
+    border-right:1px solid #3c5472;
+    border-left: 1px solid #505093;
+
+
+ }   
+ .naver ul li{
+   position: relative; 
+   
+ }   
+
+ .naver ul li ul{
+   position: absolute; 
+   left: -99999px;  
+ 
+ }   
+ .naver ul li ul li{
+   text-decoration: none;  
+display: flex;
+color: #f1f1f1; 
+padding: 10px;
+background-color: #303c50; 
+font-weight: bold; 
+font-family: Arial;
+border-top:1px solid #3c5472;
+border-bottom: 1px solid #505093; 
+border-right:none;
+border-left: none;
+ }  
+ 
+ .naver ul li:hover ul {
+  left: -521px; 
+
+
+ }
+ .naver ul li:last-child{ 
+    
+ border-right: none;
+
+}  
+.naver ul li:first-child{ 
+    
+   border-left: none;
+  
+  } 
+
+   .naver ul li a{   
+text-decoration: none;  
+display: block; 
+color: #f1f1f1; 
+padding: 10px;
+background-color: #303c50; 
+font-weight: bold; 
+font-family: Arial;
+ } 
+  
+
+
+
+ .naver ul li :hover {   
+   
+    background-color: #1d1d1d;  
+    color: #8daed4;
+ }
+     
+     
+ 
+ .naver ul{
+    margin-left: 520px; 
+   
+ }   
+ .slider{
+    border-top: 3px solid #57606f ;  
+    border-bottom: 3px solid #57606f; 
+    
+ } 
+
+
+
+
+
+#Maincontent
+{
+    background-color: #fff ; 
+    padding: 10px;    
+    overflow: hidden; 
+    border-top: 3px solid #57606f ; 
+    
+    border-bottom: 3px solid #57606f; 
+} 
+.content{
+    width: 620px;
+    margin-right: 20px; 
+ float: left; 
+
+} 
+.side{
+    width: 300px;  
+    float: left;
+
+}.footer{
+    background-color: #000000; 
+    color: #eccc68; 
+    padding: 20px; 
+    border-top: 3px solid #57606f ;  
+    border-bottom: 3px solid #57606f; 
+}
